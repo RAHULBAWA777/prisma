@@ -1,0 +1,48 @@
+.BotanicalLogo{
+    position: absolute;
+    /* width: 65px;
+    height: 65px; */
+    /* overflow: hidden; */
+    top: 10px;
+    left: 10px;
+    z-index: 9999;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+ 
+}
+
+.BotanicalLogoImage {
+    width: 100px;
+    height: 100px;
+    filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+}
+
+  @media screen and (max-width: 720px) {
+    .BotanicalLogo{
+        position: absolute;
+        width: 80px;
+        height: 80px;
+        top: 5px;
+        left: 2px;
+        /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+        filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+    }
+}
+
+
+@media screen and (max-width: 400px) {
+    .BotanicalLogo{
+        position: absolute;
+        width: 65px;
+        height: 65px;
+        top: 5px;
+        left: 2px;
+       
+        /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+        filter: drop-shadow(0.35rem 0.35rem 0.4rem rgba(0, 0, 0, 0.5));
+    }
+  }
